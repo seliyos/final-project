@@ -1,0 +1,239 @@
+footer {
+    width: 1280px;
+    // height: 455px;
+    background-color: #EE4367;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+
+    .logo {
+        padding: 15px 10px 0px 10px;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        margin-bottom: 46px;
+
+        .logo-img {
+            display: block;
+            width: 92px;
+            height: 42px;
+            object-fit: contain;
+        }
+    }
+
+    .address p {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .subscribe {
+        max-width: 6970px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 46px;
+
+        input[type="email"] {
+            width: 530px;
+            height: 60px;
+            border: none;
+            padding-left: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            background-color: #F56B88;
+        }
+
+        input[type="email"]::placeholder {
+            color: #FFFFFF;
+            opacity: 1;
+        }
+
+
+        button {
+            width: 167px;
+            height: 60px;
+            border: none;
+            background-color: #fff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #EE4367;
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .social a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 31px;
+        height: 31px;
+        border-radius: 10%;
+        background-color: #fff;
+        color: #EE4367;
+
+        text-decoration: none;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+
+    .copy-right {
+        margin-top: 36px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    footer {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+
+        .logo {
+            margin-bottom: 30px;
+
+            .logo-img {
+                width: 80px;
+                height: auto;
+            }
+        }
+
+        .address p {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .subscribe {
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            margin-top: 30px;
+
+            input[type="email"] {
+                width: 100%;
+                max-width: 100%;
+                height: 50px;
+                padding-left: 20px;
+                font-size: 14px;
+            }
+
+            button {
+                width: 100%;
+                max-width: 100%;
+                height: 50px;
+                font-size: 14px;
+            }
+        }
+
+        .social {
+            flex-direction: row;
+            gap: 20px;
+            padding: 15px;
+            margin-top: 25px;
+        }
+
+        .social a {
+            width: 28px;
+            height: 28px;
+            font-size: 18px;
+        }
+
+        .copy-right {
+            font-size: 11px;
+            margin-top: 25px;
+            text-align: center;
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    footer {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+
+        .logo {
+            margin-bottom: 30px;
+
+            .logo-img {
+                width: 80px;
+                height: auto;
+            }
+        }
+
+        .address p {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .subscribe {
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            margin-top: 30px;
+
+            input[type="email"] {
+                width: 100%;
+                max-width: 100%;
+                height: 50px;
+                padding-left: 20px;
+                font-size: 14px;
+            }
+
+            button {
+                width: 100%;
+                max-width: 100%;
+                height: 50px;
+                font-size: 14px;
+            }
+        }
+
+        .social {
+            flex-direction: row;
+            gap: 20px;
+            padding: 15px;
+            margin-top: 25px;
+        }
+
+        .social a {
+            width: 28px;
+            height: 28px;
+            font-size: 18px;
+        }
+
+        .copy-right {
+            font-size: 11px;
+            margin-top: 25px;
+            text-align: center;
+        }
+    }
+}

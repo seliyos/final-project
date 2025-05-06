@@ -1,0 +1,122 @@
+.blog1-wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 55px;
+
+    .image-date {
+        width: 980px;
+        height: 300px;
+        margin-bottom: 55px;
+        position: relative;
+        background-image: linear-gradient(rgba(238, 67, 103, 0.6),
+                rgba(238, 67, 103, 0.6)),
+            url(../images/blog1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .center-content {
+            width: 155px;
+            height: 155px;
+            background-color: #EE4367;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+
+            .date {
+                color: white;
+                margin: 0;
+                font-size: 55px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+            }
+
+            .month {
+                color: white;
+                margin: 0;
+                font-size: 31px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            }
+
+
+        }
+
+    }
+
+    .blog-content {
+        margin-bottom: 150px;
+        max-width: 857px;
+
+        .title {
+            margin-top: 56px;
+            margin-bottom: 33px;
+            font-family: PT Serif, serif;
+            font-size: 20px;
+            font-weight: 500;
+            color: #EE4367;
+            text-align: left;
+
+        }
+
+        .blog-text {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            color: #000;
+            text-align: left;
+        }
+
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .blog1-wrapper {
+        padding: 0 15px;
+        margin-top: 40px;
+
+        .image-date {
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            padding: 20px;
+
+            .center-content {
+                width: 120px;
+                height: 120px;
+
+                .date {
+                    font-size: 40px;
+                }
+
+                .month {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .blog-content {
+            max-width: 100%;
+            margin-bottom: 80px;
+
+            .title {
+                margin-top: 30px;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .blog-text {
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+    }
+}

@@ -1,0 +1,124 @@
+.hero-container {
+    width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(240, 209, 64, 0.6),
+            rgba(240, 209, 64, 0.6)),
+        url(../images/home-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    // justify-content: center;
+    // align-items: center;
+
+    // color: white;
+    // text-align: center;
+
+    // position: relative;
+
+    .hero-content {
+        text-align: center;
+        padding-top: 64px;
+        margin: 0 auto;
+        max-width: 420px;
+
+        h5 {
+            font-family: PT Serif, serif;
+            font-size: 40px;
+            color: #fff;
+            font-weight: 500;
+
+        }
+
+        .pink-text {
+            color: #EE4367;
+            font-family: 'Gill Sans', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+
+        }
+
+        p {
+            font-family: 'Gill Sans', sans-serif;
+            font-size: 20px;
+            color: #fff;
+            font-style: italic;
+            margin: 50px 0 50px 0;
+
+        }
+
+        button {
+            width: 121px;
+            height: 40px;
+            background: #EE4367;
+            color: #fff;
+            border: none;
+            font-size: 15px;
+            font-weight: 50;
+            font-family: 'Gill Sans', sans-serif;
+
+
+        }
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .hero-container {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px; // add padding around hero on smaller screens
+
+        .hero-content {
+            padding-top: 40px;
+            max-width: 90%;
+
+            h5 {
+                font-size: 32px;
+            }
+
+            .pink-text {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 18px;
+                margin: 30px 0;
+            }
+
+            button {
+                width: 100px;
+                height: 36px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        height: auto;
+        padding: 30px 15px;
+
+        .hero-content {
+            padding-top: 30px;
+
+            h5 {
+                font-size: 26px;
+            }
+
+            .pink-text,
+            p {
+                font-size: 16px;
+            }
+
+            button {
+                width: 100%;
+                max-width: 160px;
+                font-size: 14px;
+                height: 40px;
+            }
+        }
+    }
+}

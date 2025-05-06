@@ -1,0 +1,33 @@
+.text {
+    max-width: 789px;
+    margin: 0 auto;
+
+    p {
+        text-align: left;
+        padding-top: 87px;
+        font-size: 15px;
+        font-family: 'Gill Sans', sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        color: #FFD140;
+
+
+
+    }
+
+    .name {
+        font-family: 'PT Serif', 'PT Serif Caption', 'Georgia', serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: #EE4367;
+    }
+
+    .title {
+        font-size: 10px;
+        font-family: 'PT Serif', 'PT Serif Caption', 'Georgia', serif;
+        font-weight: 400;
+        color: #A8A8A8;
+        margin-bottom: 76px;
+    }
+
+}
